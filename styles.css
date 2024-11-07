@@ -88,3 +88,8 @@ footer {
 @keyframes blink {
     50% { border-color: transparent; }
 }
+.content {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
