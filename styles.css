@@ -72,15 +72,16 @@ footer {
     font-size: 1rem;
     color: #8e8e8e;
 }
+
 .typing-effect {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     color: #00ff00;
+    white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid #00ff00;
     animation: typing 3.5s steps(30) 1s forwards, blink 0.75s step-end infinite;
-    white-space: normal;  /* Убираем nowrap, чтобы текст переносился */
-}
+}   
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
